@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family:serif;
+    font-size: 1.02em;
+    line-height: 1.5;
+    color: #232323;
+    background-color:#edebff;
+}
+img {
+    width: 100%;
+}
+.navbar {
+    background-color: #434837;
+    padding: 0.842em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.62);
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+}
+
+a:hover,
+a:focus,
+.active {
+    background-color: #98203B;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero {
+    /* background-color: #f893b3; */
+    background: url('../img/bg.jpg') center center / cover no-repeat;
+    width: 100%;
+    max-height: 800px;
+}
+
+.hero h1 {
+    margin: 0;
+    text-align: right;
+    color: white;
+    padding: 3em 2em;
+    font-size: 5em;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 0px -4px 10px rgba(0, 0, 0, 0.72);
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin: 6em 1em;
+}
+
+/* contact page */
+
+.herder {
+    background-color: #c34e69;
+    margin-top: 51px;
+    color: #fff;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5em 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input {
+    margin: 1em 0;
+    font-size: 0.9em;
+    padding: 0.5em;
+}
+
+textarea {
+    height: 250px;
+    min-height: 200px;
+}
+
+.btn {
+    background-color: #c34e69;
+    border: none;
+    padding: 1em;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.65);
+}
+
+input[type="submit"] {
+    width: 200px;
+    margin: 0 auto;
+}

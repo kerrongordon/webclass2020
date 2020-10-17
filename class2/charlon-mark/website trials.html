@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Trial Website C.M</title>
+<style>
+body {
+    background-image: url("wallpaper.jpg");  
+}
+
+div.content-1 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-top: 1px solid #f83807;
+  border-bottom: 1px solid #f83807;
+}
+
+ul.b {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  padding: 10px; 
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 1px solid #f83807;
+  border-right: 1px solid #f83807;
+}
+
+.clr{
+  clear:both;
+}
+
+li a:hover {
+  background-color: #0000FF; 
+}
+
+li a .dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: left;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #0000ff}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #0000ff;
+}
+
+.title {
+  color: black;
+  text-align: center; 
+}
+
+div.gallery {
+  margin: 32px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  color:white;  
+}
+
+#sidebar-1 {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: right;
+  width: 160px;
+  padding:5px;
+}
+
+#sidebar-1 h2 {
+  color: black;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+  background-color: black;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 8px 14px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0000ff;
+}
+
+div.input {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 14px;
+}
+
+.box {
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 6px;
+  border: 3px solid;
+  border-color:#f83807;
+  padding: 20px;
+  margin:60px 300px;
+}
+
+.box h3 {
+  text-align: center;
+  color: black;
+}
+
+
+.button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: blue;
+}
+
+
+#mainblock {
+  color: white;
+  float: left;
+  width:70%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+#mainblock:hover{
+  background-color: black;
+}
+
+#sidebar-2 {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+#main-footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 1px;
+}
+
+.img-container {
+  float: left;
+  width: 32%;  
+  padding: 1px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: x-large;
+}
+</style>
+</head>
+<div class= "content-1">
+<body>
+<h1>The Greats Of All Time</h1>
+<ul class= "a">
+  <li><a href="website trials.html">Home</a></li>
+  <div class="dropdown">
+  <li><a href="#Greats">The Greats</a></li>
+  <br>
+  <br>
+  <div class="dropdown-content">
+    <a target= "_blank" href="https://en.wikipedia.org/wiki/LeBron_James">Lebron James</a>
+    <a target= "_blank" href="https://en.wikipedia.org/wiki/Michael_Jordan">Micheal Jordan</a>
+    <a target= "_blank" href="https://en.wikipedia.org/wiki/Kobe_Bryant">Kobe Bryant</a>
+    <a target= "_blank" href="https://en.wikipedia.org/wiki/Shaquille_O%27Neal">Shaquille O'neal</a>
+  </div>
+  </div>
+  <li><a href="Profile.html">Profile</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li style="float:right"><a class="active" href="About.html">About</a></li>
+</ul>
+
+<h1 class="title">Pictures of the Greats in their time</h1>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.youtube.com/watch?v=QJwQ9KNNJEQ">
+    <img src="Lebron James Era.jpg" alt=" Greatest overall basketball player" width="330" height="300">
+  </a>
+  <div class="desc">is an American professional basketball player for the
+     Los Angeles Lakers of the National Basketball Association (NBA).
+      He is widely considered to be one of the greatest basketball players
+       in NBA history.
+      </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.youtube.com/watch?v=cuLprHh_BRg">
+    <img src="Micheal Jordan Era.jpg" alt="Greatest basketball player" width="330" height="300">
+  </a>
+  <div class="desc">is an American former professional basketball player
+     and the principal owner of the Charlotte Hornets of the National Basketball
+      Association (NBA). He played 15 seasons in the NBA, winning six championships
+       with the Chicago Bulls.
+      </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.youtube.com/watch?v=tKq1ZV75dW0">
+    <img src="Kobe Bryant Era.jpg" alt="Most dominant center" width="330" height="300">
+  </a>
+  <div class="desc"> was an American professional basketball player.
+     A shooting guard, he spent his entire career with the Los Angeles
+      Lakers in the National Basketball Association (NBA). Regarded as
+       one of the greatest players of all time.
+      </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://www.youtube.com/watch?v=lmCD_OGn-NY">
+    <img src="Shaquille O_neal Era.jpg" alt="One of the greatest to ever play" width="330" height="300">
+  </a>
+  <div class="desc"> is an American former professional basketball 
+    player who is a sports analyst on the television program Inside 
+    the NBA on TNT. He is widely considered one of the greatest players 
+    in National Basketball Association (NBA) history.
+  </div>
+</div>
+
+<h3>Signup to NCAA Basketball</h3>
+      <ul class= "b">
+        <div>
+          <div id= "sidebar-1">
+            <!-- this is what supposed to be in the form: "<form action="/action_page.php">"
+               I have ths link instead of the action pnp to send persons to the actual signup
+                page after clicking submit.-->
+            <form target= "_blabk" action="https://pub.s1.exacttarget.com/g2tyldsstp2">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="grenada">Grenada</option>
+              <option value="Trinidad">Trinidad</option>
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="cuba">Cuba</option>
+              <option value="guyana">Guyana</option>
+              <option value="barbados">Barbados</option>
+              <option value="st.lucia">St.Lucia</option>
+              <option value="antigua">Antigua</option>
+              <option value="australia">Australia</option>          
+            </select>
+          
+            <input type="submit" value="Submit">
+          </form>
+          </div>
+        </div>
+
+  </ul>
+  <div class = "clr" ></div>
+  <div class = "box">
+  <h3>What it takes to be Great</h3>
+  <p>Inorder to be a great player or one of the greatest to ever play the game of basketball,
+     the approach must be different from most players. Its takes really hard work, high level
+     understanding of the game and a drive to win by constantly aiming to improve daily.
+      Kid you not some players do have all the criteria to win championships but has yet to or
+       never completed that task. Over every decade a legend is born, while some hide in the
+      shadows of others.
+  </p>
+    </div>
+  
+    <div class = "box">
+      <h3>Championship Tribute 2020</h3>
+      <p>The year 2020 has been one of the most tragical years in human history because of
+        COVID situation but to the baketball world or NBA teams and players its hard to forget
+        the tragic death of Kobe Byrant. He played for the Los Angeles Lakers and won five (5)
+        Championship with the team, known as one best players of all time. The Lakers of this 
+        2019-2020 season took it apon themselves to set a goal to win the championship as a tribute
+         to Kobe, and they did win the NBA final on October 11th, 2020.
+      </p>
+      </div>
+    
+      <div class="clearfix">
+<div class="img-container">
+    <a target="_blank" href="Lebron James fourth title4.jpg">
+        <img src="Lebron James fourth title4.jpg" alt=" Greatest overall basketball player" width="100%">
+        </a>
+</div>
+<div class="img-container">
+    <a target="_blank" href="Lebron James fourth title5.jpg">
+        <img src="Lebron James fourth title5.jpg" alt=" Greatest overall basketball player" width="100%">
+        </a>
+</div>
+<div class="img-container">
+    <a target="_blank" href="Lebron James fourth title6.jpg">
+        <img src="Lebron James fourth title6.jpg" alt=" Greatest overall basketball player" width="100%">
+        </a>
+</div>
+</div>
+
+       
+        <div clss = "clr"></div>
+        <div id = "mainblock">
+          <h3>The Key Detail</h3>
+          <p class= "intro">Kobe Bryant once said that every player or every team is not built
+             to win championships, because if championships were easy to acquire
+             then every player would have one.
+          </p>
+            </div>
+            <div id = "sidebar-2">
+              <p>Lebron James just won his 4th NBA title on October 11th 2020 and most in the media
+                would say today that he is now in the conversation for the greatest
+                of all time or the G.O.A.T of basketball.
+              </p>
+        </div>
+        <div class = "clr"></div>
+  </body>
+
+  <footer id = "main-footer">
+      <p> Copyright &copy 2020. Charlon Trial Website</p>
+  </footer>
+  </div>
+</html>

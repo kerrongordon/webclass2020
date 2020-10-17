@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VintageVogue</title>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" link href="css.html">
+   <body>
+    <div style="background-image: url('https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1040&q=80');">
+      </style>
+    <header>
+      <div class="logo">
+          <img src="vvlogo.png">
+      </div>
+      <h1><strong>21st Century Vintage</strong></h1>
+      <style>
+      h1 {
+        text-align: center;
+    }
+    div.h1 {
+  font-size: 25px;
+}
+</style>
+<style>
+  * {box-sizing: border-box}
+  
+  /* Set height of body and the document to 100% */
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: orange;}
+  </style>
+  </head>
+  <body>
+  
+  <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'orange')">Contact</button>
+  
+  <div id="Home" class="tabcontent">
+    <h3>Welcome Home Vintage friends!</h3>
+    <p><strong>VintageVogue- Providing all your vintage fashion needs for the 21st century.</strong></p>
+    <h4><em>Thank you for visiting! We sincerely hope that we give you a vintage 
+      feel as you go back in time and discover our modern vintage collection.</em></h4>
+  </div>
+  
+  <div id="News" class="tabcontent">
+    <h1><STRONG>VintageVogue News</STRONG></h1>
+   <h2><strong>BLOW-OUT SALE!!! 50% ON ALL DRESSES AND GLASSES</strong></h2>
+   <H2><strong>FRIDAY FLASH SALE: BUY ONE GET ONE HALF OFF ON MEN'S VINTAGE SHOES</strong></H2>
+   
+  </div>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    </style>
+   
+  
+  <div id="Contact" class="tabcontent">
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      * {box-sizing: border-box;}
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <h3>Contact Form</h3>
+      
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            margin: 0;
+            font-family: Arial;
+          }
+          
+          .header {
+            text-align: center;
+            padding: 32px;
+          }
+          
+          .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+          }
+          
+          /* Create four equal columns that sits next to each other */
+          .column {
+            -ms-flex: 25%; /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+          }
+          
+          .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+          }
+          
+          /* Responsive layout - makes a two column-layout instead of four columns */
+          @media screen and (max-width: 800px) {
+            .column {
+              -ms-flex: 50%;
+              flex: 50%;
+              max-width: 50%;
+            }
+          }
+          
+          /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 600px) {
+            .column {
+              -ms-flex: 100%;
+              flex: 100%;
+              max-width: 100%;
+            }
+          }
+          </style>
+          <body>
+          
+          
+          <!-- Photo Grid -->
+          <div class="row"> 
+            <div class="column">
+              <img src="img1.jfif" style="width:100%">
+              <img src="img2.jfif" style="width:100%">
+              <img src="img3.jfif" style="width:100%">
+              <img src="img4.jfif" style="width:100%">
+              <img src="img5.jfif" style="width:100%">
+              <img src="img6.jfif" style="width:100%">
+              <img src="img7.jfif" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="img13.jfif" style="width:100%">
+              <img src="img11.jfif" style="width:100%">
+              <img src="img10.jfif" style="width:100%">
+              <img src="img9.jfif" style="width:100%">
+              <img src="img8.jfif" style="width:100%">
+              <img src="img14.jfif" style="width:100%">
+              </div>
+
+              <div class="column">
+                <img src="img3.jfif" style="width:100%">
+                <img src="img7.jfif" style="width:100%">
+                <img src="img1.jfif" style="width:100%">
+                <img src="img5.jfif" style="width:100%">
+                <img src="img2.jfif" style="width:100%">
+                <img src="img6.jfif" style="width:100%">
+                <img src="img4.jfif" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="img8.jfif" style="width:100%">
+                <img src="img9.jfif" style="width:100%">
+                <img src="img10.jfif" style="width:100%">
+                <img src="img11.jfif" style="width:100%">
+                <img src="img12.jfif" style="width:100%">
+                <img src="img13.jfif" style="width:100%">
+              </div>
+              </div>
+
+            </style>
+            <style>
+              body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+              }
+              
+              html {
+                box-sizing: border-box;
+              }
+              
+              *, *:before, *:after {
+                box-sizing: inherit;
+              }
+              
+              .column {
+                float: left;
+                width: 33.3%;
+                margin-bottom: 16px;
+                padding: 0 8px;
+              }
+              
+              .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                margin: 8px;
+              }
+              
+              .about-section {
+                padding: 50px;
+                text-align: center;
+                background-color: #474e5d;
+                color: white;
+              }
+              
+              .container {
+                padding: 0 16px;
+              }
+              
+              .container::after, .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              
+              .title {
+                color: grey;
+              }
+              
+              .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+              }
+              
+              .button:hover {
+                background-color: #555;
+              }
+              
+              @media screen and (max-width: 650px) {
+                .column {
+                  width: 100%;
+                  display: block;
+                }
+              }
+              </style>
+              </head>
+              <body>
+              
+              <div class="about-section">
+                <h1>About Us</h1>
+                <p><strong>VintageVogue- Providing all your vintage fashion needs for the 21st century.</strong></p>
+                <p><em>VintageVogue is a virtual and physical store that has been in existence since 2016.
+                   Its is to provide modern vintage fashion to the public and encourage vitage self-expression.
+                  VintageVogue has maintained localized sites and stores in the United Kingdom, United States and Denmark.
+                  The company was headquartered St.George, Grenada and was founded by Kinida Joseph.</em></p>
+              </div>
+          </div>
+          
+          <script>
+          function openPage(pageName,elmnt,color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+          }
+          
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+          </script>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

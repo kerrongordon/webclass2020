@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KHS News</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <div style= text-align:center>
+     <img src="khscent.png" width="400" height="500" >
+    </div>
+    </style>
+    </head>
+   
+    <div class="navbar">
+      <a class="active" href="khs.html"><i class="fas fa-home"></i> Home</a><a class="home"><a>
+      <a href="News.html"><i class="fas fa-globe"></i>News</a><a class="News"><a>
+      <a href="Contact.html"><i class="fas fa-envelope"></i> Contact</a><a class="Contact">&nbsp;<a>
+      <a href="Products.html"><i class="fas fa-shopping-bag"></i> Products</a><a class="Products"><a>
+      <a href="Meet the Team.html"><i class="fas fa-users"></i>Meet the Team</a><a class="Meet the Team"><a>
+      <a href="Login.html"><i class="fas fa-user"></i> Login</a><a class="Login">&nbsp;</a>
+      <a href="Search.html"><i class="fas fa-search"></i> Search</a>
+    </div>
+<style>
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+  </style>  
+    
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            /* Style the body */
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+              margin: 0;
+            }
+            
+            /* Header/logo Title */
+            .header {
+              padding: 80px;
+              background-image:url("C:\Users\pc\Desktop\Kay's Holistics\khscent.png")
+            
+            }
+            /* Increase the font size of the heading */
+            .header h1 {
+              font-size: 40px;
+            }
+            
+            /* Style the top navigation bar */
+            .navbar {
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            /* Style the navigation bar links */
+            .navbar a {
+              float: left;
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 20px;
+              text-decoration: none;
+            }
+            
+            /* Right-aligned link */
+            .navbar a.right {
+              float: right;
+            }
+            
+            /* Change color on hover */
+            .navbar a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            
+            /* Column container */
+            .row {  
+              display: -ms-flexbox; /* IE10 */
+              display: flex;
+              -ms-flex-wrap: wrap; /* IE10 */
+              flex-wrap: wrap;
+            }
+            
+            /* Create two unequal columns that sits next to each other */
+            /* Sidebar/left column */
+            .side {
+              -ms-flex: 30%; /* IE10 */
+              flex: 30%;
+              background-color: #f1f1f1;
+              padding: 20px;
+            }
+            
+            /* Main column */
+            .main {   
+              -ms-flex: 70%; /* IE10 */
+              flex: 70%;
+              background-color: white;
+              padding: 20px;
+            }
+            
+            /* Fake image, just for this example */
+            .fakeimg {
+              background-color: #aaa;
+              width: 100%;
+              padding: 20px;
+            }
+            
+            /* Footer */
+            .footer {
+              padding: 20px;
+              text-align: center;
+              background: #ddd;
+            }
+            
+            /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 700px) {
+              .row {   
+                flex-direction: column;
+              }
+            }
+            
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+              .navbar a {
+                float: none;
+                width: 100%;
+              }
+            }
+            </style>
+<style>
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .container {
+      padding: 0 16px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .title {
+      color: grey;
+    }
+    
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Welcome to the Team</h2>
+    <p>Kay's Holistic Services- Healing the 21st Century!</p>
+    <h2><text-align="center"></h2>
+    
+    <br>
+    
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="KHS1.jpeg" alt="Kinida" style="width:25%">
+          <div class="container">
+            <h2>Kinida Joseph</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Kinida has always had a dream and passio for educating peron on health. 
+                She says many people often forget about the other categories of health and only pay more attention to the physical.
+                 But to have a balanced lifestyle she says that we all should focus on other parts of
+                  ourself with equal importance as we do with our physical self.</p>
+            <p>KinidaKHS@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="Dr.Rahul.jpg" alt="Dr.Rahul" style="width:25%">
+          <div class="container">
+            <h2>Dr.Rahul Kambusa</h2>
+            <p class="title">Naturopathic Doctor</p>
+            <p>Dr.Rahul has sen 20 years of his life dedicated the pratice of Naturopathy. At a very young age he was 
+                very enthusiastic about the whole being. Hence, he got into the field and is making ground-breaking discoveries.</p>
+            <p>RahulKHS@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      
+      
+     
+      <div class="column">
+        <div class="card">
+          <img src="Carla1.jpg" alt="Carla" style="width:25%">
+          <div class="container">
+            <h2>Carla Grant</h2>
+            <p class="title">Holistic Coach</p>
+            <p>Carla has spent nearly 10 years in the pracice of holistic wellness. Her aim is to educte others as she continues
+                 to educate herself. </p>
+            <p>CarlaKHS@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="column">
+        <div class="card">
+          <img src="angela.jpg" alt="Angela" style="width:25%">
+          <div class="container">
+            <h2>Angela Skovitch</h2>
+            <p class="title">Researcher</p>
+            <p>Angela has been one of the top researchers in the department of holistic living.
+                 When she joined our team we were very grateful to welcome her.
+                 She says that her main aim in life is to strive for a balanced lifestyle.</p>
+            <p>AngelaKHS@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+        <div class="column">    
+        <div class="card">
+          <img src="mike.jpg" alt="Mike" style="width:25%">
+          <div class="container">
+            <h2>Mike Capleton</h2>
+            <p class="title">IT Specialist</p>
+            <p>As an IT Specialist, Mike has always tried to find a way to incorporate his love for holistic health and medicine 
+                with technology. Ever since he has stepped foot at Kay's Holoistic Services he has never been happier.
+                 He always has a smile on his face an says that this is home away from home</p>
+            <p>MikeKHS@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+    </div>
+    <div class="column">    
+        <div class="card">
+          <img src="Steve.jpg" alt="Steve" style="width:50%">
+          <div class="container">
+            <h2>Steve Yatchenko</h2>
+            <p class="title">Yoya and Meditation Teacher</p>
+            <p>Steve is a world renowned yogi and meditation guru that has helped millions of people from one ed of the globe to the next. 
+            He always says "wherever the help is needed, I am there". We are very grateful to Steve for joining us for 
+            he is a very free spirited individual that does't keep his feet on the ground. </p>
+            <p>SteveKHS@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+paws link the about  page and make it read about (the about us) which i deleted
+make the booking image smaller
+home: stop the slide show from repeating

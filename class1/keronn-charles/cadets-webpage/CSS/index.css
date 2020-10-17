@@ -1,0 +1,412 @@
+
+/* FOR DESKTOP VIEW*/
+@media only screen and (min-width: 768px){
+
+    body{
+          background: white;
+          background-color: lightgrey;
+      }
+  
+      #container2{
+          margin-left: 0 auto;
+          margin-right: 0 auto;  
+      }
+  
+      #page{
+          border: 1.5em solid lightgreen;
+          margin: 0em;
+      }
+  
+      /*index page*/
+  
+      /*NAVBAR*/
+      
+       /*Header*/
+  
+      #h{
+          text-align: center;
+          background: green;
+          color: black;
+          padding-top: 10px;
+          line-height: 20px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+  
+      #h .highlight, header .current a{
+          color: navy;
+          font-weight: bold;
+          text-shadow:  0 0 1.5px limegreen, 0 0 1.5px lightgreen;
+      }
+      #h #c img{
+          width: 100px;
+          height: 55px;
+      }   
+  
+       /*SLIDE SHOW*/
+      #pics img{
+          text-align: center;
+          width: 90%;
+          height: 400PX;
+          border:limegreen 4px solid;
+      }
+  
+      #pics{
+         
+          max-width:1000px;
+          margin: 0 auto;
+          
+      }
+  
+      /*Header*/
+      .nav {
+          border-bottom: 2px solid black;
+          text-align: center;
+          height: 52px;
+          line-height: 50px;
+          background-color: green;
+          color: black;
+      }
+  
+      .menu {
+          margin: 0 40px 0 0;
+      }
+  
+      .menu a {
+          clear: right;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: black;
+          margin: 0 20px;
+          line-height: 50px;
+      }
+      
+      span {
+          color: navy ;
+          font-weight: bold;
+          text-shadow:  0 0 1.5px limegreen, 0 0 1.5px lightgreen;
+      }
+  
+       a:hover{
+          color: navy ;
+          font-weight: bold;
+          text-shadow:  0 0 1.5px limegreen, 0 0 1.5px lightgreen;
+      }
+  
+      label {
+          margin: 0 40px 0 0;
+          font-size: 26px;
+          line-height: 70px;
+          display: none;
+          width: 26px;
+          float: right;
+      }
+  
+      #toggle {
+          display: none;
+      }
+  
+      header #branding{
+          float: left; 
+      }
+      header #branding h1{
+         margin: 2px;
+      }
+      
+  
+      /*showcase*/
+      #showcase{
+          color: white;
+          height: 200px;
+          width: 100%;
+          background: url("../IMAGES/showcase.jpg") center
+          center / cover no-repeat;
+          text-align: center;
+      }
+  
+      #showcase h1 {
+          
+          margin: 0;
+          text-align: center;
+          color: white;
+          padding: 3em 2em;
+          font-size: 2em;
+          font-family: 'Tangerine', cursive;
+          text-shadow: 0px -4px 10px green;
+      }
+  
+      /*content*/
+  
+      #content{
+          text-align: center;
+          
+      }
+  
+      #content{
+          padding: 3em;
+          max-width:1000px;
+          margin: 0 auto;
+          font-size: 16px;
+      }
+  
+      #gallery img{
+          width: 190px;
+      }
+      
+      #gallery{
+          text-align: center;
+          display: grid;
+          grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+      }
+  
+      #img3{
+          width: 200px;
+      }
+  
+      #gallerytext a{
+          text-decoration: none;
+  
+          text-align: center;
+          width: 99%;
+          color: green;
+          text-shadow: 3px 6px 13px 3px limegreen;
+      }
+      #gallerytext  a:hover{
+          color: navy ;
+          font-weight: bold;
+          text-shadow:  0 0 3.5px limegreen, 0 0 3.5px lightgreen;
+      }
+  
+      .color{
+          margin: 2em;
+          background: lightgreen;
+          box-shadow: 0px 3px 10px 0px limegreen;
+      }
+  
+  
+      
+      #footer{
+          background: green;
+          text-align: center;
+          color: black;
+          padding: 20px;
+          box-shadow: 3px 6px 13px 3px limegreen;
+      }
+      
+      #footer img{
+          height: 20px;
+          width: 40px;
+      }
+  
+  }
+  
+  /* FOR MOBILE VIEW*/
+  @media only screen and  (max-width: 768px) {
+  
+      body{
+          background: white;
+          background-color: lightgrey;
+      }
+      #container2{
+      /* width: 900px;*/
+          margin-left: auto;
+          margin-right: auto;  
+      }
+  
+      #page{
+          border: 1.5em solid lightgreen;
+          margin: 0em;
+      }
+  
+      /*index page*/
+      #h{
+          width: 100%;
+          background: green;
+          color: black;
+          padding:0px ;
+          margin: 0 auto;
+          min-height: 30px;
+          text-align: center; 
+      }
+      #h h1{
+          text-align: center;
+          background: green;
+          color: black;
+          padding-top: 2%px;
+          line-height: 40px;
+      }
+      #h .highlight, header .current a{
+          color: navy;
+          font-weight: bold;
+          text-shadow:  0 0 1.5px limegreen, 0 0 1.5px lightgreen;
+      }
+      #h #c img{
+          width: 25%;
+          height: 25%;
+      }
+  
+      /*NAVBAR*/
+  
+      /*Header*/
+      
+      label {
+          background: darkgreen;
+          display: block;
+          text-align: center;
+          cursor: pointer;
+          margin: 0 40px 0 0;
+          font-size: 26px;
+          line-height: 30px;
+          width: 99%;
+          border: 2px solid black;
+      }
+      .menu {
+          text-align: center;
+          width: 100%;
+          display: none; 
+          background-color: green;
+      }
+     
+      .menu a {
+          display: block;
+          border-top: 1px solid limegreen;
+          border-right: 2px solid limegreen;
+          border-left: 2px solid limegreen;
+          border-bottom: 1px solid limegreen;
+          margin: 0;
+      }
+      
+      .menu a {
+          clear: right;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: black;
+          margin: 0 10px;
+          line-height: 30px;
+      }
+      
+      #toggle{
+          display: none;
+      }
+      
+      #toggle:checked + .menu {
+          display: block;
+      }
+      
+      span {
+          color: navy ;
+          font-weight: bold;
+          text-shadow:  0 0 1.5px limegreen, 0 0 1.5px lightgreen;
+      }
+      
+       a:hover{
+          color: navy ;
+          font-weight: bold;
+          text-shadow:  0 0 1.5px limegreen, 0 0 1.5px lightgreen;
+      }
+      
+      header #branding h1{
+          background: green;
+          padding: 1%;
+          margin: 0 auto;
+          text-align: center;
+     }
+  
+      /*SLIDE SHOW*/
+      #pics img{
+          width: 95%;
+          height: 200PX;
+  
+      }
+  
+      #pics{
+          border: limegreen 2px solid;
+          padding-left: 10%;
+          padding-right: 5%; 
+          max-width:95%;
+          margin: 0 auto ; 
+          font-size: 2em;
+      }
+  
+      /*showcase*/
+      #showcase{
+          color: white;
+          height: 200px;
+          width: 100%;
+          background: url("../IMAGES/showcase.jpg") center
+          center / cover no-repeat;
+          text-align: center;
+      }
+      #showcase h1 {
+          margin: 0;
+          text-align: center;
+          color: white;
+          padding: 2.5em 1.5em;
+          font-size: 2em;
+          font-family: 'Tangerine', cursive;
+          text-shadow: 2px -6px 12px green;
+      }
+  
+      /*content*/
+  
+      #content{
+          padding: 2%;
+          text-align:center; 
+      }
+  
+      #mcontent{
+          padding: 1%;
+          margin: 4%;
+          width:94%;
+      }
+  
+      .img img{
+          max-width: 90%; 
+         
+      }
+      
+      #gallery{
+          width: 100%; 
+      }
+  
+      .img3 img{
+          width: 200px;
+      }
+  
+      #gallerytext a{
+          text-decoration: none;
+  
+          text-align: center;
+          width: 99%;
+          color: green;
+          text-shadow: 3px 6px 13px 3px limegreen;
+      }
+      #gallerytext  a:hover{
+          color: navy ;
+          font-weight: bold;
+          text-shadow:  0 0 3.5px limegreen, 0 0 3.5px lightgreen;
+      }
+  
+      .color{
+          text-align: center;
+          width: 99%;
+          background: lightgreen;
+          box-shadow: 0px 3px 10px 0px limegreen;
+      }
+  
+      #footer{
+          background: green;
+          text-align: center;
+          color: black;
+          padding: 20px;
+          border: 2px limegreen solid;
+      }
+  
+      #footer img{
+          width: 15%;
+          height: 10%;   
+      }
+      
+  }
+  
+  
