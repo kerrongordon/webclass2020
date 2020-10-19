@@ -1,0 +1,200 @@
+/* nav bar styling begining*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #0a8f79;
+    height: 75px;
+    /*margin-bottom: 10px;*/
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style-type: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+    box-shadow: 0px 1px 3px;
+}
+/* nav bar styling end*/
+
+/* drop down list*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*        */
+
+body{
+    background: #dfd8d8d8;
+}
+
+
+.wrapper-gallery{
+    margin: 0 20vw;
+}
+
+
+.wrapper-gallery p{
+    color: black;
+    margin-top: 15px;
+}
+
+.wrapper-gallery h2{
+    color: #000;
+}
+
+footer{
+    background: #0a8f79;
+    margin-top: 20px;
+    height: 40px;
+}
+
+footer p{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+/*                 services                  */
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cards-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin: 6em 1em;
+}
+
+div .card{
+    box-sizing: border-box;
+    background-color: white;
+    height: 300px;
+}
+
+.card h4{
+    color: #0a8f79;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.card p{
+    text-align: center;
+    padding: 8px;
+}
+
+/* about us */
+.image{
+    background: url(../images/about-background.jpg)center center/cover;
+    width: 100%;
+    height: 390px;
+    max-height: 500px;
+}
+
+.image h1{
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    text-shadow: rgb(0, 0, 0) 0px -4px 10px;
+    margin: 0px;
+    padding: 2em 2em;
+ }
+
+ .about-container{
+     width: 80%;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-top: 5em;
+     margin-bottom: 5em;
+ }
+
+.left{
+     padding: 15px;
+     background-color: rgba(0,136,169,0.8);
+     color: white;
+     text-align: justify;
+     margin: 1em;
+ }
+
+.right{
+    padding: 15px;
+    background-color: rgba(0,136,169,0.8);
+    color: white;
+    text-align: justify;
+    margin: 1em;
+}
+
+.about-container h2{
+    margin-bottom: 10px;
+}
+
+
+ 
